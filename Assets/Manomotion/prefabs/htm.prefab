@@ -1776,7 +1776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389faf23de2b679449887e0b14e7a6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serial_key: MHRHI-OYWUC-DOZXN-XTAHK
+  serial_key: 
   _hand: {fileID: 23913911897026686}
   _binary: {fileID: 23378202923693736}
   _background: {fileID: 23225490896258740}

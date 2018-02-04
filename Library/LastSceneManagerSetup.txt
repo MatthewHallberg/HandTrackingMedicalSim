@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Manomotion/Scenes/sdk show.unity
+  isLoaded: 1
+  isActive: 1

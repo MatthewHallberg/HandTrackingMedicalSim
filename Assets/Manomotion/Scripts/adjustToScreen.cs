@@ -36,8 +36,8 @@ public class adjustToScreen : MonoBehaviour
     {
         float size = 1;
 
-        width = cam.pixelWidth * .20f;
-		height = cam.pixelHeight * .20f;
+        width = cam.pixelWidth;
+		height = cam.pixelHeight;
         float ratio = (float)width / height;
 
         transform.localScale = new Vector3(size * ratio, size, 1);
