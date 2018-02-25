@@ -96,6 +96,14 @@ public class HandRepresentation : MonoBehaviour
 		UpdatePalmColor ();
 	}
 
+	/// <summary>
+	/// returns estimated position of hand in 3D coordinates
+	/// </summary>
+	public Vector3 GetPosition(){
+		palm.position = Camera.main.ScreenToWorldPoint (htm.PalmCenter + Vector3.forward * htm.GetManomotionGesture ().relative_depth);
+		return palm.position;
+	}
+
 	void UpdateLineColor ()
 	{
 		int trigger = htm.GetManomotionGesture ().mano_gesture_trigger;
