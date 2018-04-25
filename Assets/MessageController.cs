@@ -12,7 +12,7 @@ public class MessageController : MonoBehaviour {
 	private const int PORT_NUM = 1999;
 	private const float UPDATE_TIME = .5f;
 
-	private string serverIP = "192.168.1.151";
+	private string serverIP = "10.215.39.212";
 	private IPAddress serverAddr;
 	private IPEndPoint endPoint;
 	private Socket sock;
